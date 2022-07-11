@@ -7,12 +7,6 @@ import org.junit.Test;
 import static org.junit.Assert.assertTrue;
 
 public class OrderScooterCheck extends BaseTestClass {
-    protected String firstName = "Тест";
-    protected String secondName = "Тестов";
-    protected String address = "Москва, Новослободская 228";
-    protected String phoneNumber = "12345678909";
-    protected String datePicker = "07.07.2022";
-    protected String courierComment = "тестовый коммент";
 
     @Before
     public void testConf(){
@@ -27,9 +21,10 @@ public class OrderScooterCheck extends BaseTestClass {
         objHomePage.getOrderButtons().get(0).click();
 
         // Заполнение информации о заказчике
+        Order order = new Order();
         OrderPageYandexScooter objOrderPage = new OrderPageYandexScooter(driver);
-        objOrderPage.setPersonalInfo(firstName, secondName, address, phoneNumber);
-        objOrderPage.setRentalInfo(datePicker, courierComment);
+        objOrderPage.setPersonalInfo(order.firstName, order.secondName, order.address, order.phoneNumber);
+        objOrderPage.setRentalInfo(order.datePicker, order.courierComment);
 
         //Подтверждаем заказ. Вынес отдельно, чтобы удобно было тестить, так как на Хроме это не работает
         objOrderPage.getConfirmButton().click();

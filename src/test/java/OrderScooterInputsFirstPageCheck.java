@@ -29,12 +29,13 @@ public class OrderScooterInputsFirstPageCheck {
 
         @Parameterized.Parameters(name = "{index}: index = {0}, value = {1}")
         public static Object[][] getTestData() {
+            Order order = new Order();
             return new Object[][] {
-                    {0, "FirstName"},
-                    {1, "SecondName"},
-                    {2, "Address"},
-                    {3, "MetroDropdown"},
-                    {4, "PhoneNumber"}
+                    {0, order.wrongFirstName},
+                    {1, order.wrongSecondName},
+                    {2, order.wrongAddress},
+                    {3, order.wrongMetroDropdown},
+                    {4, order.wrongPhoneNumber}
             };
         }
 

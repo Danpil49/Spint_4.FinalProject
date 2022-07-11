@@ -8,12 +8,6 @@ import org.openqa.selenium.NoSuchElementException;
 import static org.junit.Assert.assertFalse;
 
 public class OrderScooterInputsSecondPageCheck extends BaseTestClass {
-    protected String firstName = "Тест";
-    protected String secondName = "Тестов";
-    protected String address = "Москва, Новослободская 228";
-    protected String phoneNumber = "12345678909";
-    protected String datePicker = "08.07.2021";
-
     @Before
     public void testConf(){
         startUp();
@@ -26,16 +20,16 @@ public class OrderScooterInputsSecondPageCheck extends BaseTestClass {
         }
     }
 
-
     @Test
     public void orderFlowInputTest() {
         driver.get(orderPageUrl);
         OrderPageYandexScooter orderPage = new OrderPageYandexScooter(driver);
         //Пропускаем первую страницу
-        orderPage.setPersonalInfo(firstName, secondName, address, phoneNumber);
+        Order order = new Order();
+        orderPage.setPersonalInfo(order.firstName, order.secondName, order.address, order.phoneNumber);
 
         //Вводим дату и не вводим срок аренды
-        orderPage.getDatePickerField().sendKeys(datePicker);
+        orderPage.getDatePickerField().sendKeys(order.datePicker);
         orderPage.getOrderButton().click();
 
         //Проверяем что поле с подтверждением не появилось
