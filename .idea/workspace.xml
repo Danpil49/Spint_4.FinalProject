@@ -41,16 +41,7 @@
       <recent name="D:\Spint_4.FinalProject\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FAQAccordionCheck$AccordionItemsTextCheck">
-    <configuration name="FAQAccordionCheck$AccordionItemsTextCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spint_4.FinalProject" />
-      <option name="PACKAGE_NAME" value="FAQAccordionCheck" />
-      <option name="MAIN_CLASS_NAME" value="FAQAccordionCheck$AccordionItemsTextCheck" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.YandexLogoCheck">
     <configuration name="OrderScooterInputsFirstPageCheck$OrderInputsCheckWithParamsFirstPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spint_4.FinalProject" />
       <option name="PACKAGE_NAME" value="OrderScooterInputsFirstPageCheck" />
@@ -60,20 +51,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderScooterInputsFirstPageCheck$OrderInputsCheckWithParamsSecondPage.OrderFlowInputTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spint_4.FinalProject" />
-      <option name="PACKAGE_NAME" value="OrderScooterInputsFirstPageCheck" />
-      <option name="MAIN_CLASS_NAME" value="OrderScooterInputsFirstPageCheck$OrderInputsCheckWithParamsSecondPage" />
-      <option name="METHOD_NAME" value="OrderFlowInputTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OrderScooterInputsSecondPageCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spint_4.FinalProject" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="OrderScooterInputsSecondPageCheck" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScooterLogoCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spint_4.FinalProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ScooterLogoCheck" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,13 +78,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="YandexLogoCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spint_4.FinalProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="YandexLogoCheck" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FAQAccordionCheck$AccordionItemsTextCheck" />
+        <item itemvalue="JUnit.YandexLogoCheck" />
         <item itemvalue="JUnit.WrongTrackNumberCheck" />
+        <item itemvalue="JUnit.ScooterLogoCheck" />
         <item itemvalue="JUnit.OrderScooterInputsSecondPageCheck" />
         <item itemvalue="JUnit.OrderScooterInputsFirstPageCheck$OrderInputsCheckWithParamsFirstPage" />
-        <item itemvalue="JUnit.OrderScooterInputsFirstPageCheck$OrderInputsCheckWithParamsSecondPage.OrderFlowInputTest" />
       </list>
     </recent_temporary>
   </component>

@@ -54,7 +54,7 @@ public class OrderScooterInputsFirstPageCheck {
             WebElement[] inputsErrorsWebElements = new WebElement[]{orderPage.getFirstNameErrorField(), orderPage.getSecondNameErrorField(),
                     orderPage.getAddressErrorField(), orderPage.getMetroDropdownErrorField(), orderPage.getPhoneNumberErrorField()};
 
-            //Проверка что сообщение об ошибке отображается
+            //Проверка, что сообщение об ошибке отображается
             orderPage.waitForLoadElement(inputsErrorsWebElements[index]);
             assertTrue("Сообщение об ошибке не отобразилось", inputsErrorsWebElements[index].isDisplayed());
         }

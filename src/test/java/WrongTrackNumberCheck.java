@@ -9,6 +9,7 @@ import org.openqa.selenium.NoSuchElementException;
 import static org.junit.Assert.assertTrue;
 
 public class WrongTrackNumberCheck extends BaseTestClass {
+    String trackNumber = "228";
 
     @Before
     public void testConf(){
@@ -26,7 +27,7 @@ public class WrongTrackNumberCheck extends BaseTestClass {
     public void trackNumberCheckIsNotFound() {
         driver.get(homePageUrl);
         HomePageYandexScooter homePage = new HomePageYandexScooter(driver);
-        homePage.enterTheTrack("228");
+        homePage.enterTheTrack(trackNumber);
 
         TrackCheckYandexScooter trackCheckPage = new TrackCheckYandexScooter(driver);
         //Жду и проверяю что отображается картинка "Такого заказа нет"
