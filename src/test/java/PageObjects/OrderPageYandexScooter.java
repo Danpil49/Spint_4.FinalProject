@@ -9,29 +9,74 @@ import java.time.Duration;
 
 public class OrderPageYandexScooter {
     private final WebDriver driver;
+
+    //Локатор логотипа "Самокат"
     private final By scooterLogo = By.xpath(".//img[@alt='Scooter']");
+
+    //Локатор на input ввода Имени
     private final By firstNameField = By.xpath(".//input[@placeholder='* Имя']");
+
+    //Локатор на div с ошибкой "Введите корректное имя"
     private final By firstNameErrorField = By.xpath(".//div[text()='Введите корректное имя']");
+
+    //Локатор на input ввода Фамилии
     private final By secondNameField = By.xpath(".//input[@placeholder='* Фамилия']");
+
+    //Локатор на div с ошибкой "Введите корректную фамилию"
     private final By secondNameErrorField = By.xpath(".//div[text()='Введите корректную фамилию']");
+
+    //Локатор на input ввода Адреса
     private final By addressField = By.xpath(".//input[@placeholder='* Адрес: куда привезти заказ']");
+
+    //Локатор на div с ошибкой "Введите корректный адрес"
     private final By addressErrorField = By.xpath(".//div[text()='Введите корректный адрес']");
+
+    //Локатор на input ввода Станции метро
     private final By metroDropdownField = By.xpath(".//input[@placeholder='* Станция метро']");
+
+    //Локатор на div с ошибкой "Выберите станцию"
     private final By metroDropdownErrorField = By.xpath(".//div[text()='Выберите станцию']");
+
+    //Локатор на второй элемент в dropdown списке выбора Станции метро
     private final By secondMetroInDropdownField = By.cssSelector("li.select-search__row[data-index='1']>button");
+
+    //Локатор на input ввода Номера телефона
     private final By phoneNumberField = By.xpath(".//input[@placeholder='* Телефон: на него позвонит курьер']");
+
+    //Локатор на div с ошибкой "Введите корректный номер"
     private final By phoneNumberErrorField = By.xpath(".//div[text()='Введите корректный номер']");
+
+    //Локатор на кнопку "Далее"
     private final  By nextButton = By.xpath(".//button[text()='Далее']");
+
+    //Локатор на кнопку "Да"
     private final  By confirmButton = By.xpath(".//button[text()='Да']");
 
+    //Локатор на input указания Даты доставки
     private final By datePickerField = By.xpath(".//input[@placeholder='* Когда привезти самокат']");
+
+    //Локатор на dropdown с выбором Срока аренды
     private final By rentalPeriodField = By.xpath(".//div[text()='* Срок аренды']/..//span");
+
+    //Локатор на элемент dropdown списка со значением "двое суток"
     private final By twoDaysRentalField = By.xpath(".//div[text()='двое суток']");
+
+    //Локатор на чекбокс "чёрный жемчуг", в блоке "Цвет самоката"
     private final By blackScooterCheckbox = By.xpath(".//input[@id='black']");
+
+    //Локатор на чекбокс "серая безысходность", в блоке "Цвет самоката"
     private final By greyScooterCheckbox = By.xpath(".//input[@id='grey']");
+
+    //Локатор на input указания "Комментарий для курьера"
     private final By courierCommentField = By.xpath(".//input[@placeholder='Комментарий для курьера']");
+
+    //Локатор на форму подтверждения заказа
     private final By confirmModalForm = By.cssSelector(".Order_Modal__YZ-d3");
+
+    //Локатор на кнопку "Заказать"
     private final By orderButton = By.xpath(".//div[@class='Order_Buttons__1xGrp']/button[text()='Заказать']");
+
+    //Локатор на сообщение об успешном заказе
     private final By successMassage = By.xpath(".//div[text()='Заказ оформлен']");
     private final int timeoutDurationInSeconds;
 

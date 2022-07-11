@@ -11,6 +11,8 @@ import java.time.Duration;
 public class TrackCheckYandexScooter {
     private final WebDriver driver;
     int timeoutDurationInSeconds;
+
+    //Локатор на картинку "Такого заказа нет"
     private final By notFoundImg = By.xpath(".//img[@alt='Not found']");
 
     public TrackCheckYandexScooter(WebDriver driver) {

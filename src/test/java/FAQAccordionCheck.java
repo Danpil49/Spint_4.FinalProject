@@ -1,30 +1,17 @@
 import PageObjects.HomePageYandexScooter;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import org.openqa.selenium.firefox.FirefoxDriver;
-
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
 
 import static org.junit.Assert.assertEquals;
 
 public class FAQAccordionCheck {
 
     @RunWith(Parameterized.class)
-    public static class AccordionItemsTextCheck {
-        private WebDriver driver;
+    public static class AccordionItemsTextCheck extends BaseTestClass {
         private final int accordionItemIndex;
         private final String expectedAccordionItemText;
         private final String expectedAccordionItemHiddenText;
@@ -33,28 +20,12 @@ public class FAQAccordionCheck {
             this.accordionItemIndex = accordionItemIndex;
             this.expectedAccordionItemText = expectedAccordionItemText;
             this.expectedAccordionItemHiddenText = expectedAccordionItemHiddenText;
+
         }
 
         @Before
-        public void startUp() {
-            //Не совсем уверен в строке ниже, действительно ли она запускает тот драйвер который лежит в пакете или тот который у меня прописан в PATH)
-            System.setProperty("webdriver.chrome.driver", "../resource/chromedriver.exe");
-            boolean useChrome = true;
-            try {
-                JSONParser parser = new JSONParser();
-                Object obj = parser.parse(new FileReader("src/test/config.json"));
-                JSONObject jsonObject = (JSONObject)obj;
-                useChrome = (boolean)jsonObject.get("useChrome");
-            } catch (IOException | ParseException e) {
-                e.printStackTrace();
-            }
-            if(useChrome) {
-                WebDriverManager.chromedriver().setup();
-                driver = new ChromeDriver();
-            } else {
-                WebDriverManager.firefoxdriver().setup();
-                driver = new FirefoxDriver();
-            }
+        public void testConf(){
+            startUp();
         }
 
         @Parameterized.Parameters(name = "{index}: accordionItemText = {1}")
@@ -72,8 +43,8 @@ public class FAQAccordionCheck {
         }
 
         @Test
-        public void AccordionItemTextTest() {
-            driver.get("https://qa-scooter.praktikum-services.ru/");
+        public void accordionItemTextTest() {
+            driver.get(homePageUrl);
 
             HomePageYandexScooter objHomePage = new HomePageYandexScooter(driver);
             objHomePage.waitForLoadElement(objHomePage.getFaqAccordion());

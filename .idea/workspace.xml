@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bc151830-58f9-46b7-9155-d43e6b4febde" name="Changes" comment="Upload the project" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BZ5M6Y0m4q4UixlFVXu9DphylW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Spint_4.FinalProject\src\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.FAQAccordionCheck$AccordionItemsTextCheck">
+    <configuration name="FAQAccordionCheck$AccordionItemsTextCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spint_4.FinalProject" />
+      <option name="PACKAGE_NAME" value="FAQAccordionCheck" />
+      <option name="MAIN_CLASS_NAME" value="FAQAccordionCheck$AccordionItemsTextCheck" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderScooterInputsFirstPageCheck$OrderInputsCheckWithParamsFirstPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spint_4.FinalProject" />
+      <option name="PACKAGE_NAME" value="OrderScooterInputsFirstPageCheck" />
+      <option name="MAIN_CLASS_NAME" value="OrderScooterInputsFirstPageCheck$OrderInputsCheckWithParamsFirstPage" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderScooterInputsFirstPageCheck$OrderInputsCheckWithParamsSecondPage.OrderFlowInputTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spint_4.FinalProject" />
+      <option name="PACKAGE_NAME" value="OrderScooterInputsFirstPageCheck" />
+      <option name="MAIN_CLASS_NAME" value="OrderScooterInputsFirstPageCheck$OrderInputsCheckWithParamsSecondPage" />
+      <option name="METHOD_NAME" value="OrderFlowInputTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderScooterInputsSecondPageCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spint_4.FinalProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OrderScooterInputsSecondPageCheck" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WrongTrackNumberCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spint_4.FinalProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WrongTrackNumberCheck" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FAQAccordionCheck$AccordionItemsTextCheck" />
+        <item itemvalue="JUnit.WrongTrackNumberCheck" />
+        <item itemvalue="JUnit.OrderScooterInputsSecondPageCheck" />
+        <item itemvalue="JUnit.OrderScooterInputsFirstPageCheck$OrderInputsCheckWithParamsFirstPage" />
+        <item itemvalue="JUnit.OrderScooterInputsFirstPageCheck$OrderInputsCheckWithParamsSecondPage.OrderFlowInputTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc151830-58f9-46b7-9155-d43e6b4febde" name="Changes" comment="" />
+      <created>1657100716448</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657100716448</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Upload the project">
+      <created>1657296146334</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657296146334</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Upload the project">
+      <created>1657296168086</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657296168086</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Upload the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upload the project" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
