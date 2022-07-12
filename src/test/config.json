@@ -1,0 +1,5 @@
+{
+  "useChrome": true,
+  "homePageUrl": "https://qa-scooter.praktikum-services.ru/",
+  "orderPageUrl": "https://qa-scooter.praktikum-services.ru/order"
+}
